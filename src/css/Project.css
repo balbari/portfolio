@@ -1,0 +1,52 @@
+html{
+    width: 100%;
+    background-color: #fff;
+    /* position: relative; */
+}
+.p_contents{
+    width: 100%;
+    max-width: 1660px;
+    margin: 15rem auto;
+    padding: 0 16px;
+}
+.p_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p_title .category{
+    display: flex;
+    gap: 16px;
+}
+.p_title .category > button{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+.p_container{
+    display: flex;
+}
+.p_container .profile_image{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: #efefef;
+    object-fit: cover;
+    margin-right: 1.5rem;
+}
+.p_container > h2{
+    padding: 36px;
+    border: none;
+    text-align: start;
+    font-size: 2.5rem;
+    border-radius: 15px 15px 15px 0px;
+    background-color: #4676F2;
+    color: #efefef;
+}
+
+@media screen and (max-width:780px){
+    .p_container > h2{
+        padding: 24px;
+    }
+}

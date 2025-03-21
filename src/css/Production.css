@@ -1,0 +1,145 @@
+.r_production {
+    width: 100%;
+    height: 100%;
+    max-width: 790px;
+    min-height: 600px;
+    padding: 48px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 3rem;
+}
+
+.r_production .title {
+    margin-bottom: 2rem;
+    color: #4676F2;
+}
+
+.r_production .title>h2 {
+    margin-bottom: 0.5rem;
+}
+
+.r_production .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r_production .info .personal>h3,
+.edu>h3 {
+    color: #4676F2;
+    margin-bottom: 1rem;
+}
+
+.p_birth,
+.p_number {
+    display: flex;
+    margin-bottom: 0.5rem;
+    gap: 16px;
+}
+
+.p_mail {
+    display: flex;
+    gap: 32px;
+}
+
+.r_production .info .edu {
+    font-size: 1rem;
+}
+
+.e_high,
+.e_coll,
+.e_study {
+    margin-bottom: 0.5rem;
+}
+
+.skills>h3 {
+    color: #4676F2;
+    margin-bottom: 1rem;
+}
+
+.skills .high>ul,
+.medium>ul,
+.low>ul {
+    display: flex;
+    gap: 8px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.skills .high>ul>li,
+.medium>ul>li,
+.low>ul>li {
+    border: solid #4676F2 2px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #4676F2;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1320px) {
+    .r_production {
+        padding: 24px;
+    }
+
+    .r_production .title {
+        margin-bottom: 1.5rem;
+    }
+
+    .r_production .info {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .r_production .info .edu {
+        margin-bottom: 1rem;
+    }
+
+    .r_production .info .personal>h3,
+    .edu>h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .p_birth,
+    .p_number {
+        margin-bottom: 0.25rem;
+    }
+
+    .e_high,
+    .e_coll {
+        margin-bottom: 0.25rem;
+    }
+
+    .skills>h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .skills .high>ul>li,
+    .medium>ul>li,
+    .low>ul>li {
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .high > p,
+    .medium > p,
+    .low > p{
+        margin-bottom: 4px;
+    }
+    .skills .high>ul{
+        flex-wrap: wrap;
+    }
+    .skills .high>ul>li,
+    .medium>ul>li,
+    .low>ul>li {
+        border: none;
+        padding: 0;
+        border-radius: 0;
+        background-color: transparent;
+        color: #4676F2;
+        font-weight: 700;
+        flex-wrap: wrap;
+    }
+    
+}

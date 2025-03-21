@@ -1,0 +1,23 @@
+img{
+    display: block;
+    max-width: 100%;
+}
+.m_contents{
+    width: 100%;
+    max-width: 1660px;
+    margin: auto;
+    padding: 42px 16px;
+}
+.production{
+    display: flex;
+    margin-bottom: 12rem;
+    position: relative; 
+}
+@media screen and (max-width:780px){
+    .main{
+        height: auto;
+    }
+    .production{
+        flex-direction: column;
+    }
+}
