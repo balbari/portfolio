@@ -30,7 +30,7 @@ function ProjectCard({ title, category, period, skills, members, contribution, d
             ))}
           </div>
           <div className='site_container'>
-            <a href={link} target="_blank" rel="noopener noreferrer">
+            <a href={link} target='_blank' rel='noopener noreferrer'>
               <button className="sitebtn">사이트 보러가기</button>
             </a>
           </div>

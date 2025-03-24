@@ -37,6 +37,31 @@
   background-color: #4676F2;
   color: #fff;
   margin-left: 4rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  animation: shake 1.5s infinite ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  75% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .profile {
@@ -62,16 +87,18 @@
   border-radius: 15px 15px 15px 0px;
 }
 
-@media screen and (max-width: 1300px){
-  .talkContainer .chat{
+@media screen and (max-width: 1300px) {
+  .talkContainer .chat {
     width: 95%;
   }
-  .talkContainer .download{
+
+  .talkContainer .download {
     width: 60%;
   }
 }
-@media screen and (max-width:780px){
-  .talkContainer .chat{
+
+@media screen and (max-width:780px) {
+  .talkContainer .chat {
     width: 100%;
   }
 }
