@@ -18,7 +18,7 @@ const projects = [
       이를 통해 본래 사이트와 유사한 사용자 경험을 제공하며 실용적인 코딩 실력을 쌓았습니다.`
     ],
     image: "./img/P1.png",
-    link:''
+    link:'https://balbari.github.io/channelA_clone/'
   },
   {
     title: "리액트 투두리스트 프로젝트",
