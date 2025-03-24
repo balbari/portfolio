@@ -17,7 +17,7 @@ const projects = [
       
       이를 통해 본래 사이트와 유사한 사용자 경험을 제공하며 실용적인 코딩 실력을 쌓았습니다.`
     ],
-    image: "/img/P1.png",
+    image: "./img/P1.png",
   },
   {
     title: "리액트 투두리스트 프로젝트",
@@ -33,7 +33,7 @@ const projects = [
       
       이 프로젝트는 리액트의 컴포넌트 구조와 상태관리를 이해하는데 큰 도움이 되었으며 실제 사용자 경험을 고려한 기능 추가를 통해 실용성을 높였습니다.`
     ],
-    image: '/img/P2.png',
+    image: './img/P2.png',
   },
   {
     title: "날씨 어플 프로젝트",
@@ -49,10 +49,10 @@ const projects = [
       
       디자인은 깔끔한 인터페이스를 제공하며 3D아이콘을 사용해 시각적 매력을 더했습니다. 전체적으로 날씨 정보가 한눈에 들어오도록 구성하여 사용자가 손쉽게 정보를 확인할 수 있도록 했습니다.`
     ],
-    image: '/img/P3.png',
+    image: './img/P3.png',
   }
 ]
-const profileImage = '/img/profile.png';
+const profileImage = './img/profile.png';
 
 function Project() {
   return (

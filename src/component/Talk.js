@@ -28,7 +28,7 @@ function Talk() {
         link.click();
     };
 
-    const profileImage = '/public/img/profile.png';
+    const profileImage = './img/profile.png';
 
     return (
         <div className="talkContainer">
