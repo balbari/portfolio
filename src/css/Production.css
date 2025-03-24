@@ -17,7 +17,13 @@
 .r_production .title>h2 {
     margin-bottom: 0.5rem;
 }
-
+.r_production .title>p{
+    color: #000;
+}
+.r_production .title>p>span{
+    font-weight: 700;
+    color: #4676F2;
+}
 .r_production .info {
     width: 100%;
     display: flex;

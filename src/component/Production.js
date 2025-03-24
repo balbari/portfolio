@@ -6,7 +6,7 @@ function Production() {
         <div className='r_production'>
             <div className='title'>
                 <h2>여수연 / 웹디자이너</h2>
-                <p>디자인을 통해 문제를 해결하는 <strong>웹디자이너 여수연</strong>입니다</p>
+                <p>디자인을 통해 문제를 해결하는 <span>웹디자이너 여수연</span>입니다</p>
             </div>
             <div className='info'>
                 <div className='personal'>
@@ -27,17 +27,17 @@ function Production() {
                 <div className='edu'>
                     <h3>Education</h3>
                     <div className='e_high'>
-                        <p>성서고등학교 졸업</p>
-                        <p>2019.02</p>
+                        <p>성서고등학교 졸업 (2019.02)</p>
+                        {/* <p>2019.02</p> */}
                     </div>
                     <div className='e_coll'>
-                        <p>대구가톨릭대학교 디지털디자인과 졸업</p>
-                        <p>대구가톨릭대학교 복수전공 예술경영전공 졸업</p>
-                        <p>2023.08</p>
+                        <p>대구가톨릭대학교 디지털디자인과 졸업 (2023.08)</p>
+                        <p>대구가톨릭대학교 복수전공 예술경영전공 졸업 (2023.08)</p>
+                        {/* <p>2023.08</p> */}
                     </div>
                     <div className='e_study'>
-                        <p>(산대특)AI&React활용 스마트시티웨더 구축<br/>리퍼블리셔 양성</p>
-                        <p>2025.03</p>
+                        <p>(산대특)AI&React활용 스마트시티웨더 구축<br/>리퍼블리셔 양성 (2025.03)</p>
+                        {/* <p>2025.03</p> */}
                     </div>
                 </div>
             </div>

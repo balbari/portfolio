@@ -36,10 +36,11 @@
   border-radius: 15px 15px 15px 0px;
   background-color: #4676F2;
   color: #fff;
+  font-weight: 600;
   margin-left: 4rem;
   cursor: pointer;
   transition: color 0.3s ease;
-  animation: shake 1.5s infinite ease-in-out;
+  animation: shake 3s infinite ease-in-out;
 }
 
 @keyframes shake {
