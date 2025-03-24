@@ -3,7 +3,7 @@ import '../css/ProjectCard.css'
 
 const profileImage = './img/profile.png';
 
-function ProjectCard({ title, category, period, skills, members, contribution, description, image }) {
+function ProjectCard({ title, category, period, skills, members, contribution, description, image, link }) {
   return (
     <div className='p_card'>
       <div className='p_card_i'>
@@ -28,6 +28,11 @@ function ProjectCard({ title, category, period, skills, members, contribution, d
             {description.map((desc, index) => (
               <p key={index} className='descrip'>목표 및 설명{desc}</p>
             ))}
+          </div>
+          <div>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <button className="sitebtn">사이트 보러가기</button>
+            </a>
           </div>
         </div>
       </div>
