@@ -55,7 +55,6 @@
     padding-top: 8px;
     color: #7A8BAB;
 }
-
 .descrip {
     width: 100%;
     padding: 8px;
@@ -67,6 +66,20 @@
 .descrip:last-child {
     margin-bottom: 0;
 }
+.site_container{
+    width: 30%;
+}
+.sitebtn{
+    width: 100%;
+    background-color: #4676F2;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 15px 15px 15px 0px;
+    border: none;
+    color: #fff;
+    text-align: start;
+    font-size: 1rem;
+}
 .project_img{
     width: 100%;
     height: 100%;
@@ -77,10 +90,13 @@
     }
     .pc_title,
     .pc_info,
-    .pc_nar {
+    .pc_nar{
         width: 90%;
     }
 
+    .site_container{
+        width: 70%;
+    }
     .project_img {
         width: 100%;
         max-width: 600px;
@@ -95,7 +111,8 @@
         align-items: center; 
     }
     .pc_title,
-    .pc_info {
+    .pc_info,
+    .sitebtn {
         width: 100%; 
         margin-bottom: 16px; 
     }

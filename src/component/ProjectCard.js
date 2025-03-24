@@ -29,7 +29,7 @@ function ProjectCard({ title, category, period, skills, members, contribution, d
               <p key={index} className='descrip'>목표 및 설명{desc}</p>
             ))}
           </div>
-          <div>
+          <div className='site_container'>
             <a href={link} target="_blank" rel="noopener noreferrer">
               <button className="sitebtn">사이트 보러가기</button>
             </a>
