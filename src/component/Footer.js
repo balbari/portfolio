@@ -9,7 +9,7 @@ function Footer() {
         <p>E-Mail | qwert15023t@gmail.com</p>
         <p>Phone | 010-7522-6961</p>
       </div>
-      <img src='/img/main.jpg' alt='f_bg' className='f_bg'></img>
+      <img src='./img/main.jpg' alt='f_bg' className='f_bg'></img>
     </div>
   )
 }

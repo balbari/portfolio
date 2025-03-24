@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/ProjectCard.css'
 
-const profileImage = '/img/profile.png';
+const profileImage = './img/profile.png';
 
 function ProjectCard({ title, category, period, skills, members, contribution, description, image }) {
   return (
