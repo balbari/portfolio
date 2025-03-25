@@ -47,6 +47,6 @@ html{
 
 @media screen and (max-width:780px){
     .p_container > h2{
-        padding: 24px;
+        padding: 16px;
     }
 }

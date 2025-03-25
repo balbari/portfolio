@@ -5,8 +5,8 @@ function Production() {
     return (
         <div className='r_production'>
             <div className='title'>
-                <h2>여수연 / 웹디자이너</h2>
-                <p>디자인을 통해 문제를 해결하는 <span>웹디자이너 여수연</span>입니다</p>
+                <h2>여수연 / 웹퍼블리셔</h2>
+                <p>디자인을 통해 문제를 해결하는 <span>웹퍼블리셔 여수연</span>입니다</p>
             </div>
             <div className='info'>
                 <div className='personal'>
