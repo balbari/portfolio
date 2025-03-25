@@ -3,7 +3,7 @@ import '../css/ProjectCard.css'
 
 const profileImage = './img/profile.png';
 
-function ProjectCard({ title, category, period, skills, members, contribution, description, image, link }) {
+function ProjectCard({ title, period, skills, members, contribution, description, image, link }) {
   return (
     <div className='p_card'>
       <div className='p_card_i'>
@@ -20,7 +20,6 @@ function ProjectCard({ title, category, period, skills, members, contribution, d
             <p><span>참여 인원</span>{members}</p>
             <p><span>기여도</span>{contribution}</p>
             <p><span>사용한 툴</span>{skills}</p>
-            {/* {category} */}
           </div>
 
           <div className="pc_nar">
@@ -31,7 +30,7 @@ function ProjectCard({ title, category, period, skills, members, contribution, d
           </div>
           <div className='site_container'>
             <a href={link} target='_blank' rel='noopener noreferrer'>
-              <button className="sitebtn">사이트 보러가기</button>
+              <div className="sitebtn">사이트 보러가기</div>
             </a>
           </div>
         </div>
