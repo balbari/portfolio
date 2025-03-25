@@ -27,15 +27,12 @@ img {
 
 .app {
     width: 100%;
-    max-width: 1920px;
-    height: 100vh;
-    overflow-x: hidden;
     position: relative;
-    background: url('/public/img/main.jpg') ; 
+    background: url('./img/main.jpg') ; 
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    overflow: hidden;
 }
 
 .main {

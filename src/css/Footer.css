@@ -34,9 +34,7 @@
     margin-bottom: 1rem;
 }
 @media screen and (max-width:780px){
-    /* .f_bg{
-        height: 20vh;
-    } */
+
     .text{
         width: 100%;
         text-align: start;
