@@ -28,7 +28,7 @@ img {
 .app {
     width: 100%;
     position: relative;
-    background: url('/img/main.jpg') ; 
+    background: url('/public/img/main.jpg') ; 
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
