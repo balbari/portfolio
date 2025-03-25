@@ -149,7 +149,9 @@ img {
     .header .pc {
         display: none;
     }
-
+    .header h1>span{
+        display: none;
+    }
     .hamburger {
         display: flex;
     }
