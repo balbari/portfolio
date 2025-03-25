@@ -39,6 +39,7 @@
         width: 100%;
         text-align: start;
         margin-top: 0.5rem;
-        margin-left: 3rem;
+        margin-left:1rem;
+        font-size: 0.8rem;
     }
 }
