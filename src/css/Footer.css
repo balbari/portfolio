@@ -1,11 +1,12 @@
 .footer {
     width: 100%;
-    color: #333;
+    color: #000;
     text-align: center;
     z-index: 1;
-    padding: 5rem 0;
+    padding: 5rem 3rem;
     background-color: #ffffff6c;
     backdrop-filter: blur(50px);
+    font-size: 1.2rem;
 }
 /* .line{
     width: 100%;
@@ -27,8 +28,6 @@
     .text{
         width: 100%;
         text-align: start;
-        margin-top: 0.5rem;
-        margin-left:3rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
