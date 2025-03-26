@@ -15,27 +15,27 @@ function ProjectCard({ title, period, skills, members, contribution, description
         <div className='left'>
           <h3 className='pc_title'>{title}</h3>
 
-          <div className='pc_info'>
+          <div className='pc_info'  data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <p><span>기간</span>{period}</p>
             <p><span>참여 인원</span>{members}</p>
             <p><span>기여도</span>{contribution}</p>
             <p><span>사용한 툴</span>{skills}</p>
           </div>
 
-          <div className="pc_nar">
+          <div className="pc_nar"  data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <h4>목표 및 설명</h4>
             {description.map((desc, index) => (
               <p key={index} className='descrip'>목표 및 설명{desc}</p>
             ))}
           </div>
-          <div className='site_container'>
+          <div className='site_container'  data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
             <a href={link} target='_blank' rel='noopener noreferrer'>
               <div className="sitebtn">사이트 보러가기</div>
             </a>
           </div>
         </div>
       </div>
-      <figure className='project_img'>
+      <figure className='project_img' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <img src={image} alt='project'></img>
       </figure>
     </div>

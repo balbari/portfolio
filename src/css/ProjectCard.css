@@ -91,6 +91,14 @@
     animation: shake 3s infinite ease-in-out;
 }
 
+.project_img img {
+    transition: transform 1s ease-in-out;
+}
+
+.project_img[data-aos="fade-up"] {
+    transform: translateY(50px);
+}
+
 @keyframes shake {
     0% {
         transform: translateX(0);
