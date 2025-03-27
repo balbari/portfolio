@@ -23,7 +23,7 @@ function Talk() {
 
     const handleDownload = (file) => {
         const link = document.createElement("a");
-        link.href = ProcessingInstruction.env.PUBLIC_URL + `/${file}`;
+        link.href = `${process.env.PUBLIC_URL}/${file}`;
         link.download = file;
         link.click();
     };
@@ -49,11 +49,8 @@ function Talk() {
 
             {currentMessage === messages.length - 1 && (
                 <div className="download">
-                    <button onClick={() => handleDownload("resume.pdf")}>
-                        이력서 다운로드
-                    </button>
-                    <button onClick={() => handleDownload("coverletter.pdf")}>
-                        자기소개서 다운로드
+                    <button onClick={() => handleDownload("person.pdf")}>
+                        이력서 / 자기소개서 다운로드
                     </button>
                 </div>
             )}
