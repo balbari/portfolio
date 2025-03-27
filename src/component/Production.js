@@ -57,6 +57,9 @@ function Production() {
                         <li>#Figma</li>
                         <li>#PPT</li>
                         <li>#Word</li>
+                        <li>#Scss</li>
+                        <li>#Redux</li>
+                        <li>#ReactQuery</li>
                     </ul>
                 </div>
                 <div className='low'>
