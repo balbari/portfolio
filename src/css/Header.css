@@ -150,7 +150,7 @@ img {
         display: none;
     }
     .header h1>span{
-        display: none;
+       font-size: 1rem;
     }
     .hamburger {
         display: flex;
